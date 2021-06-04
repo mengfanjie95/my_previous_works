@@ -1,0 +1,894 @@
+{
+  "nodes": [
+    {
+      "name": "日本",
+      "des": "node_0",
+      "symbolSize": 60,
+      "category": 0
+    },
+    {
+      "name": "04式/AAM-5空空导弹",
+      "des": "node_1",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "13式舰上攻击机",
+      "des": "node_2",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "13试双发陆上战斗机",
+      "des": "node_3",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "1MF/10式舰上战斗机",
+      "des": "node_4",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "1MF10_七试舰上战斗机",
+      "des": "node_5",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "3式反战车手榴弹",
+      "des": "node_6",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "41式榴弹炮",
+      "des": "node_7",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "4式陶制手榴弹",
+      "des": "node_8",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "60式106毫米双管自行无坐力炮",
+      "des": "node_9",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "73式装甲人员运输车",
+      "des": "node_10",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "74式主战坦克",
+      "des": "node_11",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "74式榴弹炮",
+      "des": "node_12",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "75式155毫米自行火炮",
+      "des": "node_13",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "75式榴弹炮",
+      "des": "node_14",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "75式火箭炮",
+      "des": "node_15",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "79式“重马特”反坦克导弹",
+      "des": "node_16",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "80式空舰导弹（ASM-1）",
+      "des": "node_17",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "82式指挥通信车",
+      "des": "node_18",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "87式侦查警戒车",
+      "des": "node_19",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "87式双35自行高炮",
+      "des": "node_20",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "87式高射炮",
+      "des": "node_21",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "88式75毫米高射炮",
+      "des": "node_22",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "88式岸对舰导弹（SSM-1）",
+      "des": "node_23",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "89式150毫米野战加农炮",
+      "des": "node_24",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "89式乙型中战车",
+      "des": "node_25",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "89式机械化步兵战车",
+      "des": "node_26",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "89式线导鱼雷",
+      "des": "node_27",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "89式舰上攻击机",
+      "des": "node_28",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "90式75毫米野炮",
+      "des": "node_29",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "90式主战坦克",
+      "des": "node_30",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "90式舰对舰导弹（SSM-1B）",
+      "des": "node_31",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "90式（AAM-3）空空导弹",
+      "des": "node_32",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "91式105毫米野炮",
+      "des": "node_33",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "91式“凯科”地空导弹",
+      "des": "node_34",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "91式手榴弹",
+      "des": "node_35",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "91式空对舰导弹（ASM-1C）",
+      "des": "node_36",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "92式105毫米野战加农炮",
+      "des": "node_37",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "92式战斗机",
+      "des": "node_38",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "93式空对舰导弹（ASM-2）",
+      "des": "node_39",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "93式近程地对空导弹",
+      "des": "node_40",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "94式90毫米轻迫击炮",
+      "des": "node_41",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "94式轻战车",
+      "des": "node_42",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "95式75毫米野炮",
+      "des": "node_43",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "95式抢救战车",
+      "des": "node_44",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "95式轻战车",
+      "des": "node_45",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "95式重战车",
+      "des": "node_46",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "96式150毫米中迫击炮",
+      "des": "node_47",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "96式150毫米重加农炮",
+      "des": "node_48",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "96式150毫米野战榴弹炮",
+      "des": "node_49",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "96式三联装25毫米高射机关炮",
+      "des": "node_50",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "96式反坦克多用途导弹",
+      "des": "node_51",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "96式迫击炮",
+      "des": "node_52",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式150毫米中迫击炮",
+      "des": "node_53",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式150毫米短迫击炮",
+      "des": "node_54",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式81毫米曲射步兵炮",
+      "des": "node_55",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式90毫米轻迫击炮",
+      "des": "node_56",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式中战车",
+      "des": "node_57",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式抢救战车",
+      "des": "node_58",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "97式改中战车",
+      "des": "node_59",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "98式20毫米高射机关炮",
+      "des": "node_60",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "98式装甲弹药输送车",
+      "des": "node_61",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "98式轻战车",
+      "des": "node_62",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "99式/AAM-4空空导弹",
+      "des": "node_63",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "A1N三式舰上战斗机",
+      "des": "node_64",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "A2N/90式舰上战斗机",
+      "des": "node_65",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "A5M/96式舰载战斗机",
+      "des": "node_66",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "A6M2-N/二式水上战斗机",
+      "des": "node_67",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "A6M零式战机",
+      "des": "node_68",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "A7M烈风战斗机",
+      "des": "node_69",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "AAM-1空空导弹",
+      "des": "node_70",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "AAM-2空空导弹",
+      "des": "node_71",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "ASM-3空舰导弹",
+      "des": "node_72",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "ATD-X心神试验机",
+      "des": "node_73",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "B-SAT通信卫星",
+      "des": "node_74",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "B5M/97式2号舰上攻击机",
+      "des": "node_75",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "B5N/97式1号舰上攻击机",
+      "des": "node_76",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "B6N天山舰上攻击机",
+      "des": "node_77",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "B7A流星舰上攻击机",
+      "des": "node_78",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "C1M/10式舰上侦察机",
+      "des": "node_79",
+      "symbolSize": 40,
+      "category": 1
+    },    {
+      "name": "C6N彩云舰上侦察机",
+      "des": "node_80",
+      "symbolSize": 40,
+      "category": 1
+    }
+  ],
+
+    "links": [
+    {
+        "source": "日本",
+        "target": "04式/AAM-5空空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_1"
+    },
+    {
+        "source": "日本",
+        "target": "13式舰上攻击机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_2"
+    },
+    {
+        "source": "日本",
+        "target": "13试双发陆上战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_3"
+    },
+    {
+        "source": "日本",
+        "target": "1MF/10式舰上战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_4"
+    },
+    {
+        "source": "日本",
+        "target": "1MF10_七试舰上战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_5"
+    },
+    {
+        "source": "日本",
+        "target": "3式反战车手榴弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_6"
+    },
+    {
+        "source": "日本",
+        "target": "41式榴弹炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_7"
+    },
+    {
+        "source": "日本",
+        "target": "4式陶制手榴弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_8"
+    },
+    {
+        "source": "日本",
+        "target": "60式106毫米双管自行无坐力炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_9"
+    },
+    {
+        "source": "日本",
+        "target": "73式装甲人员运输车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_10"
+    },
+    {
+        "source": "日本",
+        "target": "74式主战坦克",
+        "name": "HasCountryOfOrigin",
+        "des": "link_11"
+    },
+    {
+        "source": "日本",
+        "target": "74式榴弹炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_12"
+    },
+    {
+        "source": "日本",
+        "target": "75式155毫米自行火炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_13"
+    },
+    {
+        "source": "日本",
+        "target": "75式榴弹炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_14"
+    },
+    {
+        "source": "日本",
+        "target": "75式火箭炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_15"
+    },
+    {
+        "source": "日本",
+        "target": "79式“重马特”反坦克导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_16"
+    },
+    {
+        "source": "日本",
+        "target": "80式空舰导弹（ASM-1）",
+        "name": "HasCountryOfOrigin",
+        "des": "link_17"
+    },
+    {
+        "source": "日本",
+        "target": "82式指挥通信车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_18"
+    },
+    {
+        "source": "日本",
+        "target": "87式侦查警戒车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_19"
+    },
+    {
+        "source": "日本",
+        "target": "87式双35自行高炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_20"
+    },
+    {
+        "source": "日本",
+        "target": "87式高射炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_21"
+    },
+    {
+        "source": "日本",
+        "target": "88式75毫米高射炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_22"
+    },
+    {
+        "source": "日本",
+        "target": "88式岸对舰导弹（SSM-1）",
+        "name": "HasCountryOfOrigin",
+        "des": "link_23"
+    },
+    {
+        "source": "日本",
+        "target": "89式150毫米野战加农炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_24"
+    },
+    {
+        "source": "日本",
+        "target": "89式乙型中战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_25"
+    },
+    {
+        "source": "日本",
+        "target": "89式机械化步兵战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_26"
+    },
+    {
+        "source": "日本",
+        "target": "89式线导鱼雷",
+        "name": "HasCountryOfOrigin",
+        "des": "link_27"
+    },
+    {
+        "source": "日本",
+        "target": "89式舰上攻击机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_28"
+    },
+    {
+        "source": "日本",
+        "target": "90式75毫米野炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_29"
+    },
+    {
+        "source": "日本",
+        "target": "90式主战坦克",
+        "name": "HasCountryOfOrigin",
+        "des": "link_30"
+    },
+    {
+        "source": "日本",
+        "target": "90式舰对舰导弹（SSM-1B）",
+        "name": "HasCountryOfOrigin",
+        "des": "link_31"
+    },
+    {
+        "source": "日本",
+        "target": "90式（AAM-3）空空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_32"
+    },
+    {
+        "source": "日本",
+        "target": "91式105毫米野炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_33"
+    },
+    {
+        "source": "日本",
+        "target": "91式“凯科”地空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_34"
+    },
+    {
+        "source": "日本",
+        "target": "91式手榴弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_35"
+    },
+    {
+        "source": "日本",
+        "target": "91式空对舰导弹（ASM-1C）",
+        "name": "HasCountryOfOrigin",
+        "des": "link_36"
+    },
+    {
+        "source": "日本",
+        "target": "92式105毫米野战加农炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_37"
+    },
+    {
+        "source": "日本",
+        "target": "92式战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_38"
+    },
+    {
+        "source": "日本",
+        "target": "93式空对舰导弹（ASM-2）",
+        "name": "HasCountryOfOrigin",
+        "des": "link_39"
+    },
+    {
+        "source": "日本",
+        "target": "93式近程地对空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_40"
+    },
+    {
+        "source": "日本",
+        "target": "94式90毫米轻迫击炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_41"
+    },
+    {
+        "source": "日本",
+        "target": "94式轻战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_42"
+    },
+    {
+        "source": "日本",
+        "target": "95式75毫米野炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_43"
+    },
+    {
+        "source": "日本",
+        "target": "95式抢救战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_44"
+    },
+    {
+        "source": "日本",
+        "target": "95式轻战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_45"
+    },
+    {
+        "source": "日本",
+        "target": "95式重战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_46"
+    },
+    {
+        "source": "日本",
+        "target": "96式150毫米中迫击炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_47"
+    },
+    {
+        "source": "日本",
+        "target": "96式150毫米重加农炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_48"
+    },
+    {
+        "source": "日本",
+        "target": "96式150毫米野战榴弹炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_49"
+    },
+    {
+        "source": "日本",
+        "target": "96式三联装25毫米高射机关炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_50"
+    },
+    {
+        "source": "日本",
+        "target": "96式反坦克多用途导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_51"
+    },
+    {
+        "source": "日本",
+        "target": "96式迫击炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_52"
+    },
+    {
+        "source": "日本",
+        "target": "97式150毫米中迫击炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_53"
+    },
+    {
+        "source": "日本",
+        "target": "97式150毫米短迫击炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_54"
+    },
+    {
+        "source": "日本",
+        "target": "97式81毫米曲射步兵炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_55"
+    },
+    {
+        "source": "日本",
+        "target": "97式90毫米轻迫击炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_56"
+    },
+    {
+        "source": "日本",
+        "target": "97式中战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_57"
+    },
+    {
+        "source": "日本",
+        "target": "97式抢救战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_58"
+    },
+    {
+        "source": "日本",
+        "target": "97式改中战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_59"
+    },
+    {
+        "source": "日本",
+        "target": "98式20毫米高射机关炮",
+        "name": "HasCountryOfOrigin",
+        "des": "link_60"
+    },
+    {
+        "source": "日本",
+        "target": "98式装甲弹药输送车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_61"
+    },
+    {
+        "source": "日本",
+        "target": "98式轻战车",
+        "name": "HasCountryOfOrigin",
+        "des": "link_62"
+    },
+    {
+        "source": "日本",
+        "target": "99式/AAM-4空空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_63"
+    },
+    {
+        "source": "日本",
+        "target": "A1N三式舰上战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_64"
+    },
+    {
+        "source": "日本",
+        "target": "A2N/90式舰上战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_65"
+    },
+    {
+        "source": "日本",
+        "target": "A5M/96式舰载战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_66"
+    },
+    {
+        "source": "日本",
+        "target": "A6M2-N/二式水上战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_67"
+    },
+    {
+        "source": "日本",
+        "target": "A6M零式战机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_68"
+    },
+    {
+        "source": "日本",
+        "target": "A7M烈风战斗机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_69"
+    },
+    {
+        "source": "日本",
+        "target": "AAM-1空空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_70"
+    },
+    {
+        "source": "日本",
+        "target": "AAM-2空空导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_71"
+    },
+    {
+        "source": "日本",
+        "target": "ASM-3空舰导弹",
+        "name": "HasCountryOfOrigin",
+        "des": "link_72"
+    },
+    {
+        "source": "日本",
+        "target": "ATD-X心神试验机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_73"
+    },
+    {
+        "source": "日本",
+        "target": "B-SAT通信卫星",
+        "name": "HasCountryOfOrigin",
+        "des": "link_74"
+    },
+    {
+        "source": "日本",
+        "target": "B5M/97式2号舰上攻击机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_75"
+    },
+    {
+        "source": "日本",
+        "target": "B5N/97式1号舰上攻击机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_76"
+    },
+    {
+        "source": "日本",
+        "target": "B6N天山舰上攻击机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_77"
+    },
+    {
+        "source": "日本",
+        "target": "B7A流星舰上攻击机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_78"
+    },
+    {
+        "source": "日本",
+        "target": "C1M/10式舰上侦察机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_79"
+    },
+    {
+        "source": "日本",
+        "target": "C6N彩云舰上侦察机",
+        "name": "HasCountryOfOrigin",
+        "des": "link_80"
+    }
+    ]
+}

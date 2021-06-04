@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>军事领域知识图谱</title>
+    <script src="echarts.js"></script>
+    <script src="eel.js"></script>
+    <script src="jquery-3.2.1.js"></script>
+</head>
+
+<body>
+    <h1>军事领域知识图谱</h1>
+    
+<div>
+    <input id="data" type="text" name="search" value="请输入实体">
+    <input type="button" value="搜索" onclick="read_str()">
+</div>
+<br>
+    <style>
+        h1
+        {
+            text-align:center;
+        }
+        
+        div
+        {
+            text-align:center;
+        }
+    </style>
+
+
+<script type="text/javascript">
+    // eel.expose(read_str);
+    function test(){
+        eel.python_test()
+    }
+
+
+    function read_str(){
+        myChart.showLoading();
+
+        var x = document.getElementById('data').value;
+
+        eel.Query(x)
+
+        // eel.return_query(x);
+        alert("您正在搜索：" + x);
+
+        // 在js中调用python中的函数，对搜索框中的内容进行查询
+
+    }
+    // 刷新搜索得到的实体和关系
+    eel.expose(reload_html);
+    function reload_html(){
+        // location.reload()
+        $.ajax({
+            url: "echarts_visual.html",
+            cache: false,
+            success: function(html){
+            $("#main").append(html);
+            }
+            });
+    }
+</script>
+
+
+<div id="main" style="width:1422px;height:800px"></div>
+
+<script type="text/javascript">
+
+
+    var myChart = echarts.init(document.getElementById('main'));
+
+    var categories = [];
+    for (var i = 0; i < 2; i++) {
+        categories[i] = {
+            name: '实体类型' + i
+        };
+    }
+    myChart.showLoading();  // 开启 loading 效果
+    myChart.setOption({
+        /*
+        // 图的标题
+        title: {
+            text: '军事领域知识图谱'
+        },
+        */
+        // 提示框的配置
+        tooltip: {
+            formatter: function (x) {
+                return x.data.des;
+            }
+        },
+        // 工具箱
+        toolbox: {
+            // 显示工具箱
+            show: true,
+            feature: {
+                mark: {
+                    show: true
+                },
+                // 还原
+                restore: {
+                    show: true
+                },
+                // 保存为图片
+                saveAsImage: {
+                    show: true
+                }
+            }
+        },
+        legend: [{
+            // selectedMode: 'single',
+            data: categories.map(function (a) {
+                return a.name;
+            })
+        }],
+        series: [{
+            type: 'graph', // 类型:关系图
+            layout: 'force', //图的布局，类型为力导图
+            symbolSize: 30, // 调整节点的大小
+            rotate:'false',
+            roam: 'true', // 是否开启鼠标缩放和平移漫游。默认不开启。如果只想要开启缩放或者平移,可以设置成 'scale' 或者 'move'。设置成 true 为都开启
+            edgeSymbol: ['circle', 'arrow'],
+            edgeSymbolSize: [2, 10],
+            edgeLabel: {
+                normal: {
+                    textStyle: {
+                        fontSize: 20
+                    }
+                }
+            },
+            force: {
+                repulsion: 2500,
+                edgeLength: [10, 40],
+                // layoutAnimation: 'false',
+                friction: 0.1
+
+            },
+            draggable: true,  // 可拖动
+            lineStyle: {
+                normal: {
+                    width: 2,
+                    color: '#4b565b',
+                }
+            },
+            edgeLabel: {
+                normal: {
+                    show: true,
+                    formatter: function (x) {
+                        return x.data.name;
+                    }
+                }
+            },
+            label: {
+                normal: {
+                    show: true,
+                    textStyle: {}
+                }
+            },
+
+            // 数据
+            // data: [],
+            // link: [],
+            data: [{
+                name: '俄罗斯',
+                des: 'nodedes01',
+                symbolSize: 70,
+                category: 0,
+            }, {
+                name: '1914年式150mm榴弹炮',
+                des: 'nodedes2',
+                symbolSize: 50,
+                category: 1,
+            }, {
+                name: '5.66毫米ASP水下突击步枪',
+                des: 'nodedes3',
+                symbolSize: 50,
+                category: 1,
+            }, {
+                name: 'MP-443乌鸦式手枪',
+                des: 'nodedes04',
+                symbolSize: 50,
+                category: 1,
+            }, {
+                name: 'MP412_REX左轮手枪',
+                des: 'nodedes05',
+                symbolSize: 50,
+                category: 1,
+            }],
+            links: [{
+                source: '俄罗斯',
+                target: '1914年式150mm榴弹炮',
+                name: 'link01',
+                des: 'link01des'
+            }, {
+                source: '俄罗斯',
+                target: '5.66毫米ASP水下突击步枪',
+                name: 'link02',
+                des: 'link02des'
+            }, {
+                source: '俄罗斯',
+                target: 'MP-443乌鸦式手枪',
+                name: 'link03',
+                des: 'link03des'
+            }, {
+                source: '俄罗斯',
+                target: 'MP412_REX左轮手枪',
+                name: 'link04',
+                des: 'link05des'
+            }],
+            categories: categories
+        }]
+    });
+
+
+
+
+    $.get('./items.json').done(function (data) {
+        myChart.hideLoading();
+        myChart.setOption({
+        series: [{
+
+            // 数据
+            data: data.nodes,
+            links: data.links,
+            categories: categories
+        }]
+    });
+    });
+    // location.reload()
+    // myChart.setOption(option);
+</script>
+</body>
+</html>
